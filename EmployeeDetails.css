@@ -1,0 +1,35 @@
+/* סגנונות מותאמים לרכיב EmployeeDetails */
+.employee-details {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .employee-details h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .employee-details p {
+    margin: 0.5rem 0;
+  }
+  
+  .employee-details button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .employee-details button:hover {
+    background-color: #218838;
+  }
+  
+  .map-container {
+    height: 400px;
+    margin-top: 1.5rem;
+  }
+  

@@ -1,0 +1,82 @@
+/* סגנונות מותאמים לרכיב FavoritesPage */
+.favorites-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .favorites-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .favorites-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .favorites-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .favorites-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .favorites-thumbnail {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .favorites-details h5 {
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .favorites-details p {
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  .favorites-button,
+  .details-button {
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  .favorites-button:hover {
+    background-color: #218838;
+  }
+  
+  .details-button {
+    background-color: #007bff;
+  }
+  
+  .details-button:hover {
+    background-color: #0056b3;
+  }
+  
